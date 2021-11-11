@@ -6,14 +6,14 @@ import "./topbar.css";
 export default function TopBar() {
     // const user = true; //{user && "LOGOUT"} if there is a user, then logout is enabled
     const { user, dispatch } = useContext(Context);
-    const PF = "http://localhost:5000/images/"
+    const PF = "hhttp://34.125.129.102:5001/images/"
 
     const handleLogout = () => {
         dispatch({ type: "LOGOUT" });
     };
 
     const ariHandle = () => {
-        window.open("https://github.com/griimgir");
+        window.open("https://github.com/griimgir/historyProject");
     };
 
     return (
